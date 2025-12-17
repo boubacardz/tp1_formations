@@ -19,6 +19,13 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   final List<Map<String, String>> formations = [
     {
+      'titre': 'Angular',
+      'duree': '2 jours',
+      'description':
+      'Apprenez à créer des applications WEB à base de google.',
+      'image': 'assets/images/angular_gradient.png',
+    },
+    {
       'titre': 'Flutter pour débutants',
       'duree': '3 jours',
       'description':
@@ -39,6 +46,14 @@ class HomePage extends StatelessWidget {
       'Apprenez les bonnes pratiques de design pour des applications mobiles attractives.',
       'image': 'assets/images/uiux.jpeg',
     },
+    {
+      'titre': 'bazic',
+      'duree': 'A votre rythme',
+      'description':
+      'Acquerir les bonnes bases avec bazic pour le digital',
+      'image': 'assets/images/astuce_digital.jpg',
+    },
+
   ];
 
   @override
